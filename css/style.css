@@ -1,0 +1,40 @@
+:root{
+    font-size:16px;
+}
+body{
+    font-family:Hind, sans-serif;
+    font-weight:400;
+}
+h2{
+    font-weight: bold;
+
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    height:64px;
+    margin:0px 24px 0px 24px;
+}
+header #logo{
+    display:flex;
+    
+    height:32px;
+    
+}
+header >*{
+    margin:auto 0;
+}
+#logo >*{
+    margin:auto;
+}
+#logo-text{
+    font-weight:500;
+}
+#logo-text span{
+    color:rgba(0, 0, 0, 0.219);
+}
+nav{
+    display:flex-inline;
+    justify-content:space-between;
+    
+}
