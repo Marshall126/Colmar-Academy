@@ -71,3 +71,40 @@ nav{
     width:100%;
     color:white;
 }
+#landing{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 32px;
+    padding-bottom:32px;
+}
+.main{
+    margin-left:24px;
+    margin-right:24px;
+    width:60%;
+    
+}
+.main .main-media{
+    width:100%;
+}
+.main h2{
+    margin-top:24px;
+    
+}
+
+.main p{
+    margin:24px 0;
+    
+}
+
+.info-box{
+    display:flex;
+    padding:16px;
+}
+.info-box img{
+    width:35%;
+    height:217px;
+}
+.info-box div{
+    margin:auto;
+    
+}
