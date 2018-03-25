@@ -1,0 +1,73 @@
+:root{
+    font-size:16px;
+}
+body{
+    font-family:Hind, sans-serif;
+    font-weight:400;
+}
+h2{
+    font-weight: 700;
+    font-size:2rem;
+}
+h4{
+    font-weight:500;
+    font-size:1.25rem;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    height:64px;
+    margin:0px 24px 0px 24px;
+}
+header #logo{
+    display:flex;
+    
+    height:32px;
+    
+}
+header >*{
+    margin:auto 0;
+}
+
+#logo >*{
+    margin:auto;
+}
+#logo-text{
+    font-weight:500;
+    font-size:1.25rem;
+}
+#logo-text span{
+    color:rgba(0, 0, 0, 0.219);
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    width:300px;
+    
+}
+#banner{
+    display:flex;
+    background:rgba(179, 179, 179,0.5)
+}
+#banner img{
+    margin:32px 24px;
+    width:60%;
+    height:60%;
+}
+#banner-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:250px;
+    width:25%;
+    margin:auto;
+}
+
+#banner-content #button{
+    background:rgb(53, 53, 53);
+    padding-top:8px;
+    padding-bottom:8px;
+    text-align:center;
+    width:100%;
+    color:white;
+}
