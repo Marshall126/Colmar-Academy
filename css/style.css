@@ -35,7 +35,9 @@ header #logo{
 header >*{
     margin:auto 0;
 }
-
+header#mobile{
+    display:none;
+}
 #logo >*{
     margin:auto;
 }
@@ -70,13 +72,13 @@ nav{
     margin:auto;
 }
 
-#banner-content #button{
+#banner-content #button p{
     background:rgb(53, 53, 53);
     padding-top:8px;
     padding-bottom:8px;
     text-align:center;
     width:100%;
-    color:white;
+    color:rgb(255,255,255);
 }
 #landing, #thesis{
     display:flex;
@@ -179,4 +181,31 @@ footer{
 }
 footer span{
     margin-top:16px;
+}
+
+@media only screen and (max-width:900px){
+    
+    #banner{
+        flex-direction: column;
+    }
+    #banner img{
+        width:100%;
+        margin:0;
+    }
+        
+    #banner-content{
+        width:95%;
+        margin-left:16px;
+        margin-right:16px;
+        justify-content:space-around;
+    }
+   
+}
+@media only screen and (max-width:600px){
+    header#desktop{
+        display:none;
+    }
+    header#mobile{
+        display:flex;
+    }
 }
